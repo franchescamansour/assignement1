@@ -19,6 +19,7 @@ html {
 	text-size-adjust: 100%;
     font-size: 100%;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image:url(../images/backgroundimage.jpg);
 }
 
 img {
@@ -26,7 +27,8 @@ img {
     margin-top:1rem;
     margin-left:4rem;
     display: block;
-    border: .1rem solid black;
+    border: .2rem dashed white;
+    box-shadow: .2rem .2rem .9rem .2rem rgba(0, 0, 0, .4);
 }
 
 body{
@@ -35,8 +37,7 @@ body{
 }
 
 header{
-    overflow: hidden;
-    background: #95efff; 
+    overflow: hidden; 
 }
 
 .logo{
@@ -49,11 +50,12 @@ header{
 
 .billboard{
     overflow: hidden;
-    background-image: url(/Users/cocomansour/Documents/Second%20Term/Interaction%20Design%201/github/assignement1/images/billboard.jpg);
+    background-image: url(../images/billboard.jpg);
     background-color: #FFF;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 60rem;
+    box-shadow: .2rem .2rem .9rem .2rem rgba(0, 0, 0, .4);
 }
 
 hr{
@@ -65,7 +67,7 @@ hr{
     font-size: 4rem;
     font-weight: normal;
     float: left;
-    margin: 0 1rem 1rem ;
+    margin: 1rem .5rem 1rem 0;
     color: #7FC8F4;  
 }
 
@@ -93,7 +95,6 @@ h2 {
 article{
     margin: 0;
     padding: 1rem 5%;
-    overflow: hidden;
 }
 
 p{
@@ -124,11 +125,13 @@ footer{
 }
 
 footer p{
-    color: #02357a;
+    color: #0384c7;
     font-size: 1.2rem;
+    font-weight:normal;
     margin-right:1rem;
     margin-left: 1rem;
     text-align: center;
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
 }
 
 footer a{
@@ -138,8 +141,8 @@ footer a{
 
 footer img{
     border-style: none;
-    padding-top:1rem;
-    margin:auto;
+    margin-top:1rem;
+    margin-left:6rem;
     width:50%;
 }
 
